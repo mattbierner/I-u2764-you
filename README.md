@@ -2,7 +2,7 @@
 
 Bot that tweets, "I X you", where X is a random emoji, at random accounts.
 
-Emojis can be open to interpretation, so the results can be rather entertaining.
+Emojis can be open to interpretation, so the results can be rather entertaining. [See it in action here](https://twitter.com/I_u2764_U).
 
 # Running
 To run:
@@ -20,9 +20,9 @@ $ export TWITTER_ACCESS_TOKEN_KEY="your access token key"
 $ export TWITTER_ACCESS_TOKEN_SECRET="your access token secret"
 ```
 
-Then just run the script, `$ node index.js`.
+Then just run the script, `$ node index.js`. Data about who and what was tweeted is written to `post_log.txt`.
 
-I recommend running the script using [forever][forever], `$ forever index.js`, so the fun never has to stop.
+I recommend running the script using [forever][forever], `$ forever start index.js`, so the fun never has to stop.
 
 
 [forever]: https://github.com/foreverjs/forever
