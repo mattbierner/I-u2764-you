@@ -138,4 +138,5 @@ const other = [
     '\u{1F560}', '\u{1F561}', '\u{1F562}', '\u{1F563}', '\u{1F564}', '\u{1F565}', '\u{1F566}',
     '\u{1F567}'];
 
-module.exports = [].concat(emoticons, transport, uncategorized, additionalEmoticons, additionalTransport, other);
+module.exports = [].concat(emoticons, transport, uncategorized, additionalEmoticons,
+    additionalTransport, other);
